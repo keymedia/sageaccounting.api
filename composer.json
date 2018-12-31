@@ -1,0 +1,34 @@
+{
+  "name": "keymedia/sageone",
+  "description": "SageOne Accounting API Client - Php",
+  "keywords": ["api", "sageone api", "sageone accounting api"],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Mark Duppa-Whyte",
+      "email": "info@keymedia.co.za",
+      "homepage": "http://keymedia.co.za",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "ext-curl": "*",
+    "vlucas/phpdotenv": "^2.5@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "dev-master",
+    "phpdocumentor/phpdocumentor": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "SageOneAPIv2\\": "src/SageOne/API/v2/"
+    }
+  },
+  "license": "GPU",
+  "support": {
+    "email": "support@keymedia.co.za",
+    "source": "https://github.com/keymedia/billagain.git"
+  },
+  "minimum-stability": "dev"
+}
